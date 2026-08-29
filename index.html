@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness | The Ultimate SaaS Workout Platform</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💪</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><i class="fa-solid fa-dumbbell"></i> Fitness</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#categories">Service</a></li>
+            <li><a href="#experts">Experts</a></li>
+            <li><a href="#plans">Pricing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <button id="themeToggle" class="theme-btn"><i class="fa-solid fa-moon"></i></button>
+            <button class="hamburger" id="hamburger"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Animated Background -->
+    <section id="home" class="hero">
+        <div class="animated-bg"></div>
+        <div class="hero-content reveal">
+            <span class="tagline">🚀 #1 Premium Fitness SaaS</span>
+            <h1 class="typing-effect">Get body in<br>shape & stay<br><span class="accent">healthy</span></h1>
+            <p>A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+            <div class="hero-btns">
+                <a href="#plans" class="btn btn-primary">Join Club Now!</a>
+                <a href="#featured" class="btn btn-outline">Download App <i class="fa-brands fa-apple"></i></a>
+            </div>
+        </div>
+        <div class="hero-image reveal">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1000&auto=format&fit=crop" alt="Athlete">
+            <div class="float-card card-1 glass">
+                <h3>500+</h3><p>Free Workouts</p>
+            </div>
+            <div class="float-card card-2 glass">
+                <div class="icon-circle">▶</div><div><h3>350+</h3><p>Video Tutorials</p></div>
+            </div>
+            <div class="float-card card-3 glass">
+                <h3>98%</h3><p>Success Rate</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof Strip -->
+    <section class="social-proof">
+        <p>Trusted by leading organizations</p>
+        <div class="logos">
+            <div class="logo-item">GymTech</div>
+            <div class="logo-item">FitPro</div>
+            <div class="logo-item">HealthPlus</div>
+            <div class="logo-item">MegaFlex</div>
+        </div>
+    </section>
+
+    <!-- Featured Section (3D Tilt) -->
+    <section id="featured" class="section featured">
+        <h2 class="section-title">Change Your <span class="accent">Habits</span></h2>
+        <p class="section-sub">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        <div class="grid-4">
+            <div class="feature-card tilt">
+                <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=500&auto=format&fit=crop" alt="Movement">
+                <h3>Movement</h3><p>Dynamic exercises to enhance daily physical function.</p>
+            </div>
+            <div class="feature-card tilt">
+                <img src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?q=80&w=500&auto=format&fit=crop" alt="Time">
+                <h3>Time</h3><p>Efficient HIIT workouts for modern lifestyles.</p>
+            </div>
+            <div class="feature-card tilt">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=500&auto=format&fit=crop" alt="Practice">
+                <h3>Practice</h3><p>Perfect your form with guided coaching.</p>
+            </div>
+            <div class="feature-card tilt">
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=500&auto=format&fit=crop" alt="Weight Loss">
+                <h3>Weight Loss</h3><p>Scientifically backed plans for fat loss.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Mosaic -->
+    <section id="categories" class="section categories">
+        <h2 class="section-title">Explore <span class="accent">Categories</span></h2>
+        <div class="mosaic-grid reveal">
+            <div class="mosaic-item teal"><span>Cardio Blast</span></div>
+            <div class="mosaic-item red"><span>Muscle Building</span></div>
+            <div class="mosaic-item grey"><span>CrossFit</span></div>
+            <div class="mosaic-item dark"><span>Yoga & Flex</span></div>
+            <div class="mosaic-item green"><span>Home Workouts</span></div>
+            <div class="mosaic-item blue"><span>Pilates</span></div>
+        </div>
+    </section>
+
+    <!-- How it Works (Timeline) -->
+    <section class="section timeline-section">
+        <h2 class="section-title">How it's <span class="accent">Works</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="content left reveal"><h3>01</h3><h4>Sign Up</h4><p>Create your account in under a minute.</p></div>
+            </div>
+            <div class="timeline-item">
+                <div class="content right reveal"><h3>02</h3><h4>Choose Plan</h4><p>Select a plan that matches your goals.</p></div>
+            </div>
+            <div class="timeline-item">
+                <div class="content left reveal"><h3>03</h3><h4>Start Training</h4><p>Access premium workouts instantly.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Clients Trust Us -->
+    <section class="section trust">
+        <h2 class="section-title">Why Clients <span class="accent">Trust Us</span></h2>
+        <div class="trust-grid">
+            <div class="trust-item glass"><i class="fa-solid fa-certificate"></i><h3>Certified Trainers</h3><p>100% expert-led workouts</p></div>
+            <div class="trust-item glass"><i class="fa-solid fa-chart-line"></i><h3>Data-Driven</h3><p>Track every single rep</p></div>
+            <div class="trust-item glass"><i class="fa-solid fa-shield-halved"></i><h3>Secure Payments</h3><p>Protected transactions</p></div>
+        </div>
+    </section>
+
+    <!-- Our Impact in Numbers (Animated Counters) -->
+    <section class="section stats parallax">
+        <h2 class="section-title">Our Impact in <span class="accent">Numbers</span></h2>
+        <div class="stats-grid">
+            <div class="stat-box"><h2 class="counter" data-target="12000">0</h2><p>Active Users</p></div>
+            <div class="stat-box"><h2 class="counter" data-target="800">0</h2><p>Workouts</p></div>
+            <div class="stat-box"><h2 class="counter" data-target="98">0</h2><p>% Success Rate</p></div>
+            <div class="stat-box"><h2 class="counter" data-target="24">0</h2><p>/7 Support</p></div>
+        </div>
+    </section>
+
+    <!-- Top Experts / Team -->
+    <section id="experts" class="section team">
+        <h2 class="section-title">Meet Our <span class="accent">Team</span></h2>
+        <div class="grid-3">
+            <div class="team-card reveal">
+                <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=500&auto=format&fit=crop" alt="Jerome">
+                <div class="team-info"><h3>Jerome Bell</h3><p>Trainer</p></div>
+            </div>
+            <div class="team-card reveal">
+                <img src="https://images.unsplash.com/photo-1548690312-e3b507d8c110?q=80&w=500&auto=format&fit=crop" alt="Cameron">
+                <div class="team-info"><h3>Cameron Williamson</h3><p>Trainer</p></div>
+            </div>
+            <div class="team-card reveal">
+                <img src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?q=80&w=500&auto=format&fit=crop" alt="Darrell">
+                <div class="team-info"><h3>Darrell Steward</h3><p>Trainer</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Client Testimonials (Slider) -->
+    <section class="section testimonials">
+        <h2 class="section-title">Client <span class="accent">Testimonials</span></h2>
+        <div class="slider-container">
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="slider-wrapper">
+                <div class="slider-track">
+                    <div class="slide"><p>"Lost 20lbs in 3 months! The app's UI is incredible."</p><h4>- Dianne Russell</h4></div>
+                    <div class="slide"><p>"The best workout library I have ever used."</p><h4>- Cody Fisher</h4></div>
+                    <div class="slide"><p>"Worth every penny. Premium support!"</p><h4>- Theresa Webb</h4></div>
+                </div>
+            </div>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Latest Tips & Articles -->
+    <section class="section blogs">
+        <h2 class="section-title">Latest Tips & <span class="accent">Articles</span></h2>
+        <div class="grid-3">
+            <article class="blog-card reveal"><img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?q=80&w=500&auto=format&fit=crop" alt="Nutrition"><div class="blog-content"><h4>Nutritional Hacks for 2026</h4><span>5 min read</span></div></article>
+            <article class="blog-card reveal"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=500&auto=format&fit=crop" alt="Muscle"><div class="blog-content"><h4>Ultimate Muscle Guide</h4><span>8 min read</span></div></article>
+            <article class="blog-card reveal"><img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=500&auto=format&fit=crop" alt="Mindset"><div class="blog-content"><h4>Building a Winner's Mindset</h4><span>6 min read</span></div></article>
+        </div>
+    </section>
+
+    <!-- Choose Your Plan (Pricing with Toggle) -->
+    <section id="plans" class="section plans">
+        <div class="billing-toggle">
+            <button id="monthlyBtn" class="active">Monthly</button>
+            <button id="yearlyBtn">Yearly <span class="discount">-20%</span></button>
+        </div>
+        <h2 class="section-title">Choose Your <span class="accent">Plan</span></h2>
+        <div class="grid-3">
+            <div class="plan-card glass"><h3>Basic</h3><p class="price" data-monthly="19" data-yearly="15">$19/mo</p><button class="btn btn-outline">Get Started</button></div>
+            <div class="plan-card popular glass"><h3>Pro</h3><p class="price" data-monthly="49" data-yearly="39">$49/mo</p><button class="btn btn-primary">Get Started</button></div>
+            <div class="plan-card glass"><h3>Elite</h3><p class="price" data-monthly="99" data-yearly="79">$99/mo</p><button class="btn btn-outline">Get Started</button></div>
+        </div>
+    </section>
+
+    <!-- Meet the Admin & CTA (Parallax) -->
+    <section class="section admin parallax-cta">
+        <div class="admin-box glass reveal">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=500&auto=format&fit=crop" alt="Admin">
+            <div>
+                <h3>Meet the Admin</h3>
+                <h2>John Doe</h2>
+                <p>Founder & CEO. John has 15 years of experience transforming lives through technology.</p>
+                <a href="#plans" class="btn btn-primary btn-large">Start Your Free Trial Today</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">Contact <span class="accent">Us</span></h2>
+        <div class="contact-container">
+            <div class="contact-info glass">
+                <h3>Get in touch</h3>
+                <p><i class="fa-solid fa-location-dot"></i> 123 Fitness St, Gym City</p>
+                <p><i class="fa-solid fa-envelope"></i> admin@fitness.com</p>
+                <p><i class="fa-solid fa-phone"></i> +1 (555) 123-4567</p>
+            </div>
+            <form class="contact-form glass">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5"></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Mega Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-logo">
+                <h1>Fitness</h1>
+                <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+                <div class="social-links">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+            <div class="footer-links"><h3>Get Started</h3><a href="#">Service</a><a href="#">Contact Us</a><a href="#">Affiliate Program</a></div>
+            <div class="footer-links"><h3>Platform</h3><a href="#">Fitness</a><a href="#">Workout Library</a><a href="#">App Design</a></div>
+            <div class="footer-newsletter"><h3>Newsletter</h3><p>Get the latest tips!</p><input type="email" placeholder="Your email"><button class="btn btn-primary">Subscribe</button></div>
+        </div>
+        <p class="copyright">&copy; 2026 Fitness SaaS. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
